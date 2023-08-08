@@ -119,7 +119,7 @@ cmd({
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks
 *🍁 Repo:* https://github.com/salmanytofficial/XLICON-MD
-*Group:* 
+*Group:* https://chat.whatsapp.com/GqLQLnl0tHr2ZHV4UcEl5g
 *Deploy Your Own:*-
 citel-x.herokuapp.com`
         let buttonMessaged = {
@@ -129,7 +129,7 @@ citel-x.herokuapp.com`
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Secktor-Repo",
+                    title: "XLICON-Repo",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
@@ -200,8 +200,8 @@ cmd({
 async(Void, citel,text,{isCreator}) => {
 
 if(!isCreator) return citel.reply(tlang().owner);
-let str="*All available themes in Secktor*"
-str+=`1. SECKTOR\n2. ADAM\n3. AYANOKOJI\n4. EDITH\n5. FRIDAY\n6. GENOS\n7. GIDEON\n8. GOKU\n9. LUFFY\n10. NARUTO\n11. NEZUKO\n12. PARKER\n13. ZEROTWO\n14. Eren Jeager(Coming Soon)\n\n these are the themes of Secktor Userbot.\_Reply ${prefix}setvar THEME:ZEROTWO`
+let str="*All available themes in XLICON*"
+str+=`1. ERENJAEGER\n2. ADAM\n3. AYANOKOJI\n4. EDITH\n5. FRIDAY\n6. GENOS\n7. GIDEON\n8. GOKU\n9. LUFFY\n10. NARUTO\n11. NEZUKO\n12. PARKER\n13. ZEROTWO\n\n these are the themes of XLICON Userbot.\_Reply ${prefix}setvar THEME:ZEROTWO`
 return citel.reply(str)
     
 }
