@@ -1,5 +1,5 @@
   <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Impact&size=30&pause=1000&color=00FFFF&center=true&width=910&height=100&lines=THIS IS+XLICON-MD ;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+THE TEAM XLICON ;PUBLIC+RELESED+DATE;2023.08.15;ALL+COMMANDS+ARE+ENCRPTED." alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Impact&size=4d0&pause=1000&color=00FFFF&center=true&width=910&height=100&lines=THIS IS+XLICON-MD ;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+THE TEAM XLICON ;PUBLIC+RELESED+DATE;2023.08.15;ALL+COMMANDS+ARE+ENCRPTED." alt="Typing SVG" /></a>
   
 <p align="center">  
   <a href="https://chat.whatsapp.com/GqLQLnl0tHr2ZHV4UcEl5g">
@@ -85,7 +85,7 @@ ALL COMMANDS ARE ENCRIPTED. DON'T TRY DECRIPT. BOT BY SALMANYTOFFICIAL
 
   
 
-| [![SalmanYtOfficial](https://github.com/salmanytofficial.png?size=150)](https://github.com/salmanytofficial) | [![ProfileCorruptedError](https://github.com/ahil15.pngsize=150)](https://github.com/ahil15) |
+| [![SalmanYtOfficial](https://github.com/salmanytofficial.png?size=150)](https://github.com/salmanytofficial) | [![ProfileCorruptedError](https://github.com/ahil15.png?size=150)](https://github.com/ahil15) |
 | [![KALINDU-LK](https://github.com/KALINDU-LK.png?size=150)] | [![SuhailTechInfo](https://github.com/suhailtechinfo.png?size=150)](https://github.com/suhailtechinfo) | 
 |
   
