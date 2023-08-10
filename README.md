@@ -4,6 +4,8 @@
 <p align="center">  
   <a href="https://chat.whatsapp.com/GqLQLnl0tHr2ZHV4UcEl5g">
     <img alt=Support height="250" src="https://telegra.ph/file/1da92586c209009d5131d.jpg">
+    
+ ●.***Install [External Plugins](https://github.com/SamPandey001/Secktor-Plugins)
 
 ●. ***Get a Mongodb uri from [Clever-Cloud](https://api.clever-cloud.com/v2/session/login).***
 
