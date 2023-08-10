@@ -3,9 +3,9 @@
   
 <p align="center">  
   <a href="https://chat.whatsapp.com/GqLQLnl0tHr2ZHV4UcEl5g">
-    <img alt=Support height="250" src="https://telegra.ph/file/1da92586c209009d5131d.jpg">
+    <img alt=Support height="250" src="https://telegra.ph/file/1da92586c209009d5131d.jpg"> 
     
-т.  ***Click [FORK](https://github.com/salmanytofficial/XLICON-MD/fork)***
+  ●.***Click [FORK](https://github.com/salmanytofficial/XLICON-MD/fork)***
 
 
 ## ```SCAN QR CODE```
@@ -102,10 +102,11 @@ ALL COMMANDS ARE ENCRIPTED. DON'T TRY DECRIPT. BOT BY TEAM XLICON
 <h2 align="center">💃 XLICON MD TEAM💃
 </h2>
 
- [![SalmanYtOfficial](https://github.com/salmanytofficial.png)](https://github.com/salmanytofficial)  [![ProfileCorruptedError](https://github.com/ahil15.png)](https://github.com/ahil15)  [![KALINDU-LK](https://github.com/KALINDU-LK.png)](https://github.com/KALINDU-LK)  [![SUHAIL TECH ](https://github.com/suhailtechinfo.png)](https://github.com/suhailtechinfo) 
- ----|----|----|----|----|----
+ [![SalmanYtOfficial](https://github.com/salmanytofficial.png?size=100)](https://github.com/salmanytofficial)  [![ProfileCorruptedError](https://github.com/ahil15.png?size=100)](https://github.com/ahil15)  [![KALINDU-LK](https://github.com/KALINDU-LK.png?size=100)](https://github.com/KALINDU-LK)  [![SUHAIL TECH ](https://github.com/suhailtechinfo.png?size=100)](https://github.com/suhailtechinfo) 
+ 
  [SalmanYtOfficial](https://github.com/salmanytoffcial) | [ProfileCorruptedError](https://github.com/ahil15) | [SUHAIL TECH](https://github.com/suhailtechinfo) | [KALINDU-LK](https://github.com/KALINDU-LK)
- Owner,Maintainer,dubugger | Script Editor, Maintainer , Api Maintainer | Main Developer , Ideas , Testing | Co-Developer , Maintainer 
+ 
+ 
   </div>
 
 SUPPORT GROUP: <a href="https://chat.whatsapp.com/GqLQLnl0tHr2ZHV4UcEl5g"><img alt="WhatsApp" src="https://camo.githubusercontent.com/2157131829ac512183ee8f8b6c6f803688a4cc66a2e686602844e80478401a7c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2047726f75702d3235443336363f7374796c653d666f722d7468652d6261646765266c6f676f3d7768617473617070266c6f676f436f6c6f723d7768697465"/></a>
