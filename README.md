@@ -9,7 +9,7 @@
 
 ●. ***Get a Mongodb uri from [railway.app](https://railway.app).***
 
-●.***Free Mongodb Uri
+●```FREE MONGODB URL```
 ```
 mongodb+srv://ahil1:787191784abhi@ahil1.kzr1tt3.mongodb.net/?retrywrites=true&w=majority
 ```
