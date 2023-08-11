@@ -15,12 +15,12 @@ global.devs = '923184070915';
 global.website = 'https://github.com/salmanytofficial/XLICON-MD' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png'
 module.exports = {
-  botname:   process.env.BOT_NAME || '', //PUT Session Id Here   , For Developers >>>>> Set By Deafualt it to Empty, 
+  sessionName:  process.env.SESSION_ID || 'Secktor;;;HeidiGestapo',  //PUT Session Id Here   , For Developers >>>>> Set By Deafualt it to Empty, 
   author:  process.env.PACK_AUTHER ||  'XLICON',
   packname:  process.env.PACK_NAME || 'WA BOT',
-
-  ownername: process.env.OWNER_NAME === undefined ? 'salmanytofficial' : process.env.OWNER_NAME,
-  sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
+  
+  botname:   process.env.BOT_NAME === undefined ? false : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'salmanytofficial' : process.env.OWNER_NAME,  
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
