@@ -9,7 +9,7 @@
 
 
 ## ```SCAN QR CODE```
-[![SCAN QR](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@KaliduGaweshana/XLICON-MD)
+[![SCAN QR](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@ahil15/XLICON-MD1?v=1)
    
 ## ```HEROKU DEPLOYMENT```
 
