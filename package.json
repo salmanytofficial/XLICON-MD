@@ -1,16 +1,16 @@
 {
-               "name": "Xlicon-md",
+               "name": "xlicon-md",
                "version": "0.0.7",
                "description": "Multi device whatsapp bot by Samanytofficial.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
-   "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name xlicon",
-                "stop": "pm2 stop xlicon"
-                },
+               "scripts": {
+                  "start": "pm2 start lib/client.js --deep-monitoring --attach --name xlicon",
+                  "stop": "pm2 stop xlicon"
+               },
                "author": "salmanytofficial",
-              "dependencies": {
+               "dependencies": {
                        "@sampandey001/baileys": "latest", 
                        "@adiwajshing/keyed-db": "^0.2.4",
                        "awesome-phonenumber": "^3.3.0",

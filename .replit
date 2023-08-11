@@ -1,2 +1,2 @@
-run = "yarn && npm i pm2 --location=global && pm2 start lib/client.js --deep-monitoring --attach --name xlicon"
-start = "pm2 start lib/client.js --deep-monitoring --attach --name xlicon"
+run = "yarn && npm i pm2 --location=global && pm2 start lib/client.js --deep-monitoring --attach --name Xlicon-Md"
+start = "pm2 start lib/client.js --deep-monitoring --attach --name Xlicon-Md"

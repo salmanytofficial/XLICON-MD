@@ -91,11 +91,13 @@
      "value": "false",
      "required": false 
   },
-  "PACK_INFO": {
-    "description": "Put packname;authorname.",
-     "value": "Salmanyt ; xlicon"
-,
-     "required": false 
+  "PACK_AUTHER": {
+    "description": "PUT STICKER AUTHER NAME",
+    "value": "XLICON"
+  },
+  "PACK_NAME": {
+    "description": "PUT STICKER PACK NAME",
+    "value": "Wa-BOT"
   },
   "heroku": {
     "description": "Weather it is on heroku or not",

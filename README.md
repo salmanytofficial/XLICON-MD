@@ -28,7 +28,7 @@
 
 💃. ***Get a Mongodb uri from [railway.app](https://railway.app).***
 
-💃```FREE MONGODB URL```
+💃```PUBLIC MONGODB URI```
 ```
 mongodb+srv://ahil1:787191784abhi@ahil1.kzr1tt3.mongodb.net/?retrywrites=true&w=majority
 ```
@@ -62,11 +62,12 @@ Copy the JSON down and paste in repl then fill the vars
 ```
 {
   "SESSION_ID": "ID-Here",
-  "OWNER_NUMBER": "91xxxxxxxxxx",
+  "OWNER_NUMBER": "92xxxxxxxxxx",
   "OWNER_NAME": "GOJO SATURO",
-  "OPENAI_API_KEY": "null",
+  "OPENAI_API_KEY": "Paste OpenAI Api Key here",
   "MONGODB_URI": "mongodb+srv://ahil1:787191784abhi@ahil1.kzr1tt3.mongodb.net/?retrywrites=true&w=majority",
-  "PACK_INFO": "Salman;Xlicon",
+  "PACK_AUTHER": "Xlicon",
+  "PACK_NAME": "Wa-BOT",
   "PREFIX": "."
    
 }

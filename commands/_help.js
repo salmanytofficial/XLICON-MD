@@ -82,11 +82,8 @@ Secktor.cmd({
                    }
   
                 }
-                str+= `*⭐️Type:* _xʟɪᴄᴏɴ-ᴍᴅ 🪔\nᴄʀᴇᴀᴛᴇᴅ ʙʏ xʟɪᴄᴏɴ ᴛᴇᴀᴍ 🌹_* `
-                let buttonMessaged = {
-                    image: { url: await botpic() },
-                    caption: str
-                };
+                str+= `*_ᴄʀᴇᴀᴛᴇᴅ ʙʏ xʟɪᴄᴏɴ ᴛᴇᴀᴍ 🌹_* `
+                let buttonMessaged = {    image: { url: await botpic() },  caption: str };
                 return await Void.sendMessage(citel.chat, buttonMessaged);
             }
         }

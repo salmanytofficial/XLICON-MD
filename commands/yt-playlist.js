@@ -15,9 +15,7 @@ cmd({
         },
         async(Void, citel, text) => {
   
-            const getRandom = (ext) => {
-                return `${Math.floor(Math.random() * 10000)}${ext}`;
-            };
+            const getRandom = (ext) => {  return `${Math.floor(Math.random() * 10000)}${ext}`;  };
             if (!text) {
                 citel.reply(`❌Please provide me a url`);
                 return;
