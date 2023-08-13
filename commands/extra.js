@@ -4,9 +4,9 @@
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : XLICON-MD
- * @author : salmanytofficial <https://github.com/salmanytofficial>
- * @description : XLICON ,A Multi-functional whatsapp bot.
+ * @project_name : Secktor-Md
+ * @author : SamPandey001 <https://github.com/SamPandey001>
+ * @description : Secktor,A Multi-functional whatsapp bot.
  * @version 0.0.6
  *
  */
