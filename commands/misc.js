@@ -52,28 +52,9 @@ async(Void, citel, text,{ isCreator }) => {
 }
 )
  //---------------------------------------------------------------------------
- cmd({
-             pattern: "attp",
-             desc: "Makes glowing sticker of text.",
-             category: "sticker",
-             filename: __filename,
-         },
-         async(Void, citel, text) => {
-let a = await getBuffer(`https://citel-x.herokuapp.com/attp/${text}`)
- return citel.reply(a,{packname:'Secktor',author:'ATTP'},"sticker") 
-         }
-     )
- cmd({
-             pattern: "ttp",
-             desc: "Makes static sticker of text.",
-             category: "sticker",
-             filename: __filename,
-         },
-         async(Void, citel, text) => {
-let a = await getBuffer(`https://citel-x.herokuapp.com/ttp/${text}`)
- return citel.reply(a,{packname:'Secktor',author:'TTP'},"sticker") 
-         }
-     )
+ cmd({ pattern: "attp", desc: "Makes glowing sticker of text.", category: "sticker", filename: __filename,},async(Void, citel, text) => {return await citel.reply(await getBuffer(`https://citel-x.herokuapp.com/attp/${text}`),{packname:'Secktor',author:'ATTP'},"sticker") })
+
+ cmd({ pattern: "ttp",desc: "Makes static sticker of text.",   category: "sticker", filename: __filename, }, async(Void, citel, text) => {return citel.reply(await getBuffer(`https://citel-x.herokuapp.com/ttp/${text}`),{packname:'Secktor',author:'TTP'},"sticker") })
      //---------------------------------------------------------------------------
  cmd({
              pattern: "exec",

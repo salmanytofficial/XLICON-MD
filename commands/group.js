@@ -89,10 +89,7 @@ cmd({
     },
     async(Void, citel, text) => {
         citel.reply(`*Check your Pm ${tlang().greet}*`);
-        await Void.sendMessage(`${citel.sender}`, {
-            image: log0,
-            caption: `*Group Name: Xlicon-Support*\n*Group Link:* https://chat.whatsapp.com/GqLQLnl0tHr2ZHV4UcEl5g`,
-        });
+        await Void.sendMessage(`${citel.sender}`, { image: log0, caption: `*Group Name: Xlicon-Support*\n*Group Link:* https://chat.whatsapp.com/GqLQLnl0tHr2ZHV4UcEl5g`, });
 
     }
 )

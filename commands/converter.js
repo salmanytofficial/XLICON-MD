@@ -76,11 +76,10 @@ if(quot.message.videoMessage)
 }
  
 }
-//else citel.reply("```This is Not A ViewOnce Message```") 
        
 }  
      
-catch(e) {  console.log("error" , e ) }     
+catch(e) {   }     
 
        
 if(!citel.quoted) return citel.reply("```Uh Please Reply A ViewOnce Message```")           

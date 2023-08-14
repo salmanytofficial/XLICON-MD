@@ -28,7 +28,7 @@
          const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) : false;
          //-----------------------------------------  
          if (!citel.isGroup) return citel.reply("This feature in only for Group.")
-         if (!text) return citel.reply(`❌ Please provide me term like like\n1-events\n2-antilink\n3-nsfw\n4-cardgame\n5-bot`)
+         if (!text) return citel.reply(`❌ Please provide me term like like\n1-events\n2-antilink\n3-nsfw\n4-bot`)
          if (!isAdmins) return citel.reply("❌ This Command is only for Admin")
          switch (text.split(" ")[0]) {
             case 'antilink':
@@ -75,20 +75,6 @@
                         }
                     }
                     break
-                case 'cardgame':
-                    {
-                        let checkgroup = sck.findOne({ id: citel.chat })
-                        if (!checkgroup) {
-                            await new sck({ id: citel.chat, cardgame: "deactive" })
-                                .save()
-                            return citel.reply("Successfully disabled *Card Game*")
-                        } else {
-                            if (checkgroup.cardgame == "deactive") return citel.reply("*Card Game* was already disabled")
-                            await sck.updateOne({ id: citel.chat }, { cardgame: "deactive" })
-                            return citel.reply("Successfully disabled *Card Game.*")
-                        }
-                    }
-                    break
                 case 'nsfw':
                     {
                         let checkgroup = await sck.findOne({ id: citel.chat })
@@ -106,7 +92,7 @@
                     break
                 default:
                     {
-                        citel.reply("Please provide me term like.\n1-events\n2-antilink\n3-nsfw\n4-cardgame")
+                        citel.reply("Please provide me term like.\n1-events\n2-antilink\n3-nsfw\n")
                     }
          }
      }

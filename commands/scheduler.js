@@ -65,9 +65,8 @@ async(Void, citel, text,{ isCreator }) => {
     if (!isCreator) return citel.reply(tlang().owner)
     if(!citel.isGroup) return citel.reply(tlang().group)
           let Group = await sck.findOne({ id: citel.chat })
-            if (!Group) {
-                return citel.reply('There\'s no unmute set in group.')
-            } else {
+            if (!Group) {return citel.reply('There\'s no unmute set in group.') }
+            else {
                 await await sck.updateOne({ id: citel.chat }, { unmute:'false' })
                 return citel.reply('Unmute deleted successfully.')
                 
@@ -84,9 +83,8 @@ async(Void, citel, text,{ isCreator }) => {
     if (!isCreator) return citel.reply(tlang().owner)
     if(!citel.isGroup) return citel.reply(tlang().group)
           let Group = await sck.findOne({ id: citel.chat })
-            if (!Group) {
-                return citel.reply('There\'s no mute set in group.')
-            } else {
+            if (!Group) { return citel.reply('There\'s no mute set in group.') }
+            else {
                 await await sck.updateOne({ id: citel.chat }, { mute:'false' })
                 return citel.reply('Mute deleted successfully.')
                 

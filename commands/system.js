@@ -36,36 +36,11 @@ cmd({
             desc: "Sends CitelsVoid Qr code to scan and get your session id."
         },
         async(Void, citel, text) => {
+            
             if (text) {
-                let h = await getBuffer(`https://api.qrserver.com/v1/create-qr-code/?size=500x500&data=${text}`)
-                await Void.sendMessage(citel.chat, { image: h })
-                return
-            }
-            let buttonMessaged = {
-                image: { url: 'https://citel-x.herokuapp.com/session' },
-                caption: `*_Scan Qr within 15 seconds_*\nYou'll get session id in your log number.`,
-                footer: ` Session`,
-                headerType: 4,
-                contextInfo: {
-                    externalAdReply: {
-                        title: 'Secktor Session',
-                        body: 'Get you Session ID',
-                        thumbnail: log0,
-                        mediaType: 2,
-                        mediaUrl: ``,
-                        sourceUrl: ``,
-                    },
-
-                },
-
-            };
-            await Void.sendMessage(citel.chat, buttonMessaged, {
-                quoted: citel,
-
-            });
-            await sleep(20 * 1000)
-            return citel.reply('Your session is over now.')
-
+                let h = await getBuffer(`https://api.qrserver.com/v1/create-qr-code/?size=500x500&data=${text}`);
+                return await Void.sendMessage(citel.chat, { image: h , caption : "*Scan Qr To Get Your Text*" } , {quoted : citel})                
+            }else return await citel.reply("*Please Provide text to get qr*")
 
         }
     )
@@ -138,6 +113,7 @@ async(Void, citel, text) => {
 }
 )
     //---------------------------------------------------------------------------
+    /*
 cmd({
             pattern: "shell",
             category: "owner",
@@ -155,6 +131,7 @@ cmd({
             })
         }
     )
+    */
     //---------------------------------------------------------------------------
 cmd({
             pattern: "eval",
@@ -256,19 +233,10 @@ ${alivemessage}
 
 _Type ${prefix}menu for my command list._
 
-_Powered by ${Config.ownername}_
+_Powered by ${Config.botname}_
 `;
-            let aliveMessage = {
-                image: {
-                    url: await botpic(),
-                },
-                caption: alivtxt,
-                footer: tlang().footer,
-                headerType: 4,
-            };
-             return Void.sendMessage(citel.chat, aliveMessage, {
-                quoted: citel,
-            });
+
+             return Void.sendMessage(citel.chat, {image: { url: await botpic(), },caption: alivtxt}, { quoted: citel, });
 
         }
     )

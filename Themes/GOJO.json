@@ -12,7 +12,6 @@
         },
         "global": {
             "botName": " GOJO SATURO ",
-
             "body": " SUKAAMUNAA!! ",
             "greet2" : "Hey Baka! I'm the strongest",
             "pic1": "https://i.ibb.co/XWCDnFB/20230812-162105.jpg",
@@ -37,7 +36,7 @@
             "mention": " Please mention any user Baka!",
             "title": "GOJO SATURO",
             "footer": "Baka! I'm Here!",
-            "by": "Made by: CitelVoid",
+            "by": "Made by: Xlicon Team",
             "chat_desc": "Options Avilable* : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete",
             "success": "Success ✓",
             "dot": "Baka!, Why don't you try .help",
