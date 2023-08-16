@@ -24,7 +24,7 @@ Secktor.cmd({
             alias: ["menu"],
             desc: "Help list",
             category: "general",
-            react: "✅",
+            //react: "✅",
             filename: __filename
         },
         async(Void, citel, text) => {
@@ -43,53 +43,40 @@ Secktor.cmd({
                 const cmds = {}
                 commands.map(async(command, index) => {
                     if (command.dontAddCommandList === false && command.pattern !== undefined) {
-                        if (!cmds[command.category]) cmds[command.category] = []
+                        if (!cmds[command.category]) cmds[command.category] = [];
                         cmds[command.category].push(command.pattern)
                     }
                 })
-                const time = moment(moment())
-                    .format('HH:mm:ss')
-                moment.tz.setDefault('Asia/Kolkata')
-                    .locale('id')
+                const time = moment(moment()).format('HH:mm:ss')
+                moment.tz.setDefault('Asia/Kolkata').locale('id')
                 const date = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
-                let total = await sck1.countDocuments()
-                let str = `┏━━━╍──╠` + fancytext(Config.ownername.split(' ')[0], 58) + `┥──╍━━━┓\n`
-                str +=
-                    '```' + `《 ▰▰▰▰▰▰▰▰▰▰▰▰ 》 
-╏ 🎐 User:- ${citel.pushName}
-╏ 🎐 Theme:- ${tlang().title}
-╏ 🎐 Prefix:- [ ${prefix} ]
-╏ 🎐 Owner:- ${Config.ownername}
-╏ 🎐 Plugins:- ${commands.length}
-╏ 🎐 Uptime:- ${runtime(process.uptime())}
-╏ 🎐 Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
-╏ 🎐 Time:- ${time}
-╏ 🎐 Date:- ${date}
-╏ ❰◭┉────────────┉◮❱
-🍁⇐─────────────────⇒\n
-` + '```'
-                for (const category in cmds) 
-                {
-                   str += `══════╠ ⚡*${tiny(category)}*⚡ ┥\n` ;
-                   if(text.toLowerCase() == category.toLowerCase()){ str = `══════┝⚡_*${tiny(category)}*_⚡┥\n` ;      
-                        for (const plugins of cmds[category]) { str += `┊ _*${fancytext(plugins,1)}*_\n` ; }
-                        str += `🔖   ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n`  ;
-                        break ;
-                   }
-                   else { for (const plugins of cmds[category]) { str += `┊ *_${fancytext(plugins,1)}*_\n` ; }
-                        str += `🔖  ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n`  ; 
-                   }
-  
-                }
-                str+= `*🔥Type:* _${prefix}help cmd_ name to know more about specific command.\n*Eg:* _${prefix}help attp_\n_*ᴍᴀᴅᴇ ʙʏ Tᴇᴀᴍ Xʟɪᴄᴏɴ*_🔥`
-                let buttonMessaged = {
-                    image: { url: await botpic() },
-                    caption: str
-                };
-                return await Void.sendMessage(citel.chat, buttonMessaged);
+//============================================================================================
+var up_up, up_mid, up_btm, ctgry_L, ctgry_R, cmd_L, ctgry_end;
+let default_menu = Math.floor(Math.random() * 2);
+if (default_menu == 1) {up_up = `┏━━⟪ *${Config.botname}* ⟫━━⦿`;up_mid = `┃ 🔖`; up_btm =`┗━━━━━━━━━━━━━━━⦿`;ctgry_L  =`┌──『`;ctgry_R  =`』──❖`;cmd_L =` | `;ctgry_end =`└──────────────◉` ; }
+else{up_up = `*╔╍──《  ${Config.botname}  》──╍╗*\n╏ □▰▰▰▰▰▰▰▰□`;up_mid = `╏ 🎐`; up_btm = ` ☇❰◭┉────────────┉◮❱☇\n⇐───────────────⇒`;ctgry_L =`💻───┝★`;ctgry_R =  `★┥`; cmd_L =`┊`;ctgry_end =`━━━━━━━━━━━━━━━━━━━━━━`; }              
+let str = up_up+ '```'+`
+${up_mid} Theme:- ${tlang().title}
+${up_mid} Prefix:- [ ${prefix} ]
+${up_mid} Owner:- ${Config.ownername}
+${up_mid} Plugins:- ${commands.length}
+${up_mid} Uptime:- ${runtime(process.uptime())}
+${up_mid} Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+${up_mid} Time:- ${time}
+${up_mid} Date:- ${date}
+${up_btm}`+ '```\n\n';          
+            for (const category in cmds){
+                  str += `${ctgry_L} *${tiny(category)}* ${ctgry_R}\n` ;
+                  for (const plugins of cmds[category]){ str += `${cmd_L} ${fancytext(plugins,1)}\n` ;}
+                  str += `${ctgry_end}\n`  
+                }              
+            str+= `*🔥Type:* _${prefix}help cmd_ name to know more about specific command.\n*Eg:* _${prefix}help attp_\n_*ᴍᴀᴅᴇ ʙʏ Tᴇᴀᴍ Xʟɪᴄᴏɴ*_🔥`
+            return await Void.sendMessage(citel.chat, {image: { url: await botpic() },caption: str});
             }
-        }
-    )
+
+         
+         
+     })
     //---------------------------------------------------------------------------
 Secktor.cmd({
             pattern: "list",
@@ -152,9 +139,7 @@ Secktor.cmd({
                 },
             },
         };
-        return await Void.sendMessage(citel.chat, buttonMessaged, {
-            quoted: citel,
-        });
+        return await Void.sendMessage(citel.chat, buttonMessaged, { quoted: citel, });
 
     }
 )
