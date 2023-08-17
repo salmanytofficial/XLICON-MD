@@ -37,7 +37,7 @@
    
 # ```EXTERNAL STUFF AND API```
 
-●.*Install* [External Plugins](https://github.com/SamPandey001/Secktor-Plugins)
+●.*Install* [External Plugins](https://github.com/ahil15/XLICON-Plugins)
 
 ●.  ***Get a Mongodb uri from [Clever-Cloud](https://api.clever-cloud.com/v2/session/login).***
 
