@@ -66,37 +66,20 @@ cmd({
         },
         async(Void, citel, text) => {
             if (!text) return citel.reply(`Example : ${prefix}audio Back in black`)
-            let yts = require("secktor-pack")
+            let yts = require("secktor-pack");
             let search = await yts(text)
-            listSerch = []
-            teskd = `\nResult got from ${text}.\n`
-            for (let i of search.all) {
-                listSerch.push({
-                    title: i.title,
-                    rowId: `${prefix}ytmp4 ${i.url}`,
-                    description: `Secktor / ${i.timestamp}`
-                })
-            }
-            const sections = [
-
-                {
-                    title: "Total Search🔍" + search.all.length,
-                    rows: listSerch
-                }
-
-            ]
-            const listMessage = {
-                text: teskd,
-                footer: tlang().footer,
-                title: ` *Youtube Search results by  ${tlang().title}.*`,
-                buttonText: "Videos",
-                mentions: await Void.parseMention(teskd),
-                sections
-            }
-            return Void.sendMessage(citel.chat, listMessage, {
-                quoted: citel
-            })
-
+            const getRandom = (ext) => { return `${Math.floor(Math.random() * 10000)}${ext}`;  };
+                let urlYt = search.videos[0].url
+                let infoYt = await ytdl.getInfo(urlYt);
+                if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
+                let titleYt = infoYt.videoDetails.title;
+                let randomName = getRandom(".mp4");
+                const stream = ytdl(urlYt, {  filter: (info) => info.itag == 22 || info.itag == 18,  })
+                    .pipe(fs.createWriteStream(`./${randomName}`));
+                await new Promise((resolve, reject) => {   stream.on("error", reject);   stream.on("finish", resolve);  });
+                let stats = fs.statSync(`./${randomName}`);
+                 await Void.sendMessage(citel.chat, {  video: fs.readFileSync(`./${randomName}`),jpegThumbnail: log0, mimetype: 'video/mp4',  caption: ` ® Title : ${titleYt}`, }, { quoted: citel })
+                 return fs.unlinkSync(`./${randomName}`);
         }
     )
     //---------------------------------------------------------------------------
@@ -240,35 +223,18 @@ cmd({
             if (!text) return citel.reply(`Example : ${prefix + command} Back in black`)
             let yts = require("secktor-pack")
             let search = await yts(text)
-            listSerch = []
-            teskd = `Result From ${text}.\n_+ ${search.all.length} more results._`
-            for (let i of search.all) {
-                listSerch.push({
-                    title: i.title,
-                    rowId: `${prefix}ytmp3 ${i.url}`,
-                    description: `Secktor / ${i.timestamp}`
-                })
-            }
-            const sections = [
-
-                {
-                    title: "Total Search🔍" + search.all.length,
-                    rows: listSerch
-                }
-
-            ]
-            const listMessage = {
-                text: teskd,
-                footer: tlang().footer,
-                title: ``,
-                buttonText: "Songs",
-                mentions: await Void.parseMention(teskd),
-                sections
-            }
-            return Void.sendMessage(citel.chat, listMessage, {
-                quoted: citel
-            })
-        }
+            const getRandom = (ext) => { return `${Math.floor(Math.random() * 10000)}${ext}`;  };
+            try {
+                let urlYt = search.videos[0].url;
+                let randomName = getRandom(".mp3");
+                const stream = ytdl(urlYt, { filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,  })
+                 .pipe(fs.createWriteStream(`./${randomName}`));
+                await new Promise((resolve, reject) => {stream.on("error", reject);   stream.on("finish", resolve); });
+                let stats = fs.statSync(`./${randomName}`);
+                await Void.sendMessage(citel.chat, {   audio: fs.readFileSync(`./${randomName}`),  mimetype: 'audio/mpeg',  }, { quoted: citel })
+                return  fs.unlinkSync(`./${randomName}`);
+            } catch (e) {  return await citel.reply(`*Error While Dowmloading audio*\n\`\`\`Error: ${e}\`\`\``),console.log(e); }
+       }
     )
     //---------------------------------------------------------------------------
 cmd({
