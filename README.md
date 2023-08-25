@@ -1,4 +1,6 @@
-
+.menu
+.help
+.img
 </p>
 <p align="center">
   <a href="https://chat.whatsapp.com/ESB8e9HAS2wGlwBvzGYnLx">
