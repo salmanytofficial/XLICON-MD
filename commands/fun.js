@@ -57,6 +57,7 @@ cmd({
         return citel.reply(`*Fact:* ${data.fact}\n\n*Powered by Xlicon*`)   
     }
 
+    
 )
     //---------------------------------------------------------------------------
     cmd({

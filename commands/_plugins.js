@@ -8,6 +8,7 @@
  * @description : Secktor,A Multi-functional whatsapp bot.
  * @version 0.0.6
  **/
+
 const axios = require('axios');
 const fs = require('fs-extra')
 const { plugins,plugindb, remove, isUrl,cmd } = require('../lib')

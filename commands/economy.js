@@ -392,6 +392,7 @@ default:
      const a = (k) > parseInt(value)
      const twice = gg*2
           var hjkl;
+          
      if(opp==='left')
      {
          hjkl = 'https://github.com/SecktorBot/Brandimages/blob/main/Nezuko/leftr.webp?raw=true'

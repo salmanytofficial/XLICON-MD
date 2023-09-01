@@ -52,7 +52,7 @@
   <div>
 <br>
 </p>
-     
+      
 # ```Scan QR Here```
 <a href="https://replit.com/@ahil15/XLICON-MD-QR-V4?v=1"><img src="https://i.ibb.co/zPB2Yyh/make-qr-code-your-facebook-instagram-twitter-more-interesting.jpg" align="center" width="90" /> </a>
 <div align="center">

@@ -8,7 +8,7 @@
             "UPDATE": "*Your bot is already on latest version Master*",
             "NEW_UPDATE": "*There is a new update available for the bot!*\n\n*Changes:*\n",
             "UPDATED_LOCAL": "*Fresh Updates Installed!*"
-        },
+        }, 
         "global": {
             "botName": " 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐆𝐞𝐧𝐨𝐬",
             "body": "𝑊ℎ𝑎𝑡𝑠𝑎𝑝𝑝 𝐵𝑜𝑡",

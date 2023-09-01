@@ -245,6 +245,7 @@ cmd({
 //                  ADD NOTE  COMMANDS
 //---------------------------------------------------------------------------
 /*
+
 cmd({
             pattern: "addnote",
             category: "owner",

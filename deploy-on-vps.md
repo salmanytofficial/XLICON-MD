@@ -10,7 +10,7 @@
       sudo apt -y remove nodejs
       curl -fsSl https://deb.nodesource.com/setup_lts.x | sudo bash - && sudo apt -y install nodejs
       ```
-
+ 
    3. Install yarn
       ```
       curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - 

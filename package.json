@@ -1,6 +1,6 @@
 {
                "name": "xlicon-md",
-               "version": "0.0.7",
+               "version": "0.0.8",
                "description": "Multi device whatsapp bot by Samanytofficial.",
                "main": "lib/client.js",
                "type": "commonjs",

@@ -31,7 +31,8 @@ yts( opts, async function ( err, playlist ) {
     let urlYt = playlist.videos[i].videoId
     try {
       
-                let infoYt = await ytdl.getInfo(urlYt);
+        
+        let infoYt = await ytdl.getInfo(urlYt);
                 if (infoYt.videoDetails.lengthSeconds >= videotime) continue
                 let titleYt = infoYt.videoDetails.title;
                 let randomName = getRandom(".mp4");
