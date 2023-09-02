@@ -1,4 +1,4 @@
-FROM quay.io/suhailtechinfo/suhail
+FROM quay.io/suhailtechinfo/suhail-md
 RUN git clone https://github.com/salmanytofficial/XLICON-MD /root/XLICON-MD
 WORKDIR /root/XLICON-MD/
 RUN npm install
