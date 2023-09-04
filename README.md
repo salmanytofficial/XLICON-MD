@@ -71,8 +71,6 @@
  <div align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Impact&size=15&pause=1000&color=000000&center=true&width=300&height=50&lines=THERE+ARE 2 SCANNERS ;CHOOSE+ONE OF THEM;TO+SCAN+THE QR ;AND+GET+THE;SESSION-I'D" alt="Typing SVG" /></a>
   </p>
-  
-  
    
 # ```EXTERNAL STUFF AND API```
 
@@ -82,6 +80,12 @@
 
 ●. ***HEROKU deploy Tutorial [Heroku](https://youtu.be/hH2qZyUjuF4?si=vqpl-caoBSkpcVNH).***
 # ```PUBLIC MONGODB URL```
+```
+mongodb+srv://profilecorrupted:error@xlicon0.y5mucan.mongodb.net/?retryWrites=true&w=majority
+```
+```
+mongodb+srv://xlucon02:xlicon@xlicon02.io6ntxb.mongodb.net/?retryWrites=true&w=majority
+```
 ```
 mongodb+srv://ahil1:787191784abhi@ahil1.kzr1tt3.mongodb.net/?retrywrites=true&w=majority
 ```
