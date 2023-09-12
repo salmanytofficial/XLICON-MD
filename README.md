@@ -8,7 +8,7 @@
 <h1 align="center"> XLICON-MULTIDEVICE (Beta)
 </h1>
 <p align="center"> 
-  Konnichiwaa!! I am a WhatsApp bot create by ProfileCorruptedError and recode by Team XLICON to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
+  Konnichiwaa!! I am a WhatsApp bot create by Salman Ahmad & ProfileCorruptedError and recode by Team XLICON to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
   </p>
 
 <p align="center"><img src="https://profile-counter.glitch.me/XLICON-MD/count.svg" /></p>
@@ -331,9 +331,9 @@ Choose your repo
 ## Authors
 
 
-[@ProfileCorruptedError](https://www.github.com/ahil15)
+[@salmanytoffficial](https://www.github.com/salmantofficialxx)
 
-[@Salmanytofficial](https://www.github.com/salmanytofficial)
+[@ProfileCorruptedError](https://www.github.com/ahil15)
 
 
 
@@ -343,14 +343,14 @@ Choose your repo
 
 * [`🎐 Sampandey`](https://github.com/SamPandey001)
 * [`🎐 SuhailTechInfo`](https://github.com/SuhailTechInfo)
-* [`🎐 AsliGuru`](https://github.com/Guru322)
+* [`🎐 SALMAN AHMAD`](https://github.com/salmanytofficial)
 * [`🎐Kai..!!!`](https://github.com/Kai0071)
 * [`🎐 FantoX`](https://github.com/FantoX001)
 * [`🎐 Ahmii-kun`](https://github.com/Ahmii-kun)
 * [`🎐 MR-KALINDU`](https://github.com/MR-KALINDU)
 * [`🎐 MAHER-ZUBAIR`](https://github.com/Maher-Zubair)
 * [`🎐 Pikachu`](https://github.com/PikaBotz)
-* [`🎐 Salman Ahmad`](https://github.com/salmanytofficial)
+* [`🎐 AsliGuru`](https://github.com/Guru322)
 
 ---
 
