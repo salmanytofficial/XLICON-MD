@@ -40,7 +40,7 @@
 
 ## Support
 
-For support, email infiniteytff@gmail.com or join our whatsapp group.
+For support, email infiniteytff@gmail.com or xheikhsalman4422@gmail.com join our whatsapp group.
 
 
 <p align="center">
@@ -350,7 +350,7 @@ Choose your repo
 * [`🎐 MR-KALINDU`](https://github.com/MR-KALINDU)
 * [`🎐 MAHER-ZUBAIR`](https://github.com/Maher-Zubair)
 * [`🎐 Pikachu`](https://github.com/PikaBotz)
-* [`🎐 XhekSalman`](https://github.com/salmanytofficial)
+* [`🎐 Salman Ahmad`](https://github.com/salmanytofficial)
 
 ---
 
