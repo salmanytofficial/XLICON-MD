@@ -28,7 +28,7 @@
 
 ## Important Notice
 
-Xlicon md v1 is now out dated. Xlicon Md V1 Might Give you Mongodb issues I suggest you to use Xlicon Md V2 Which is latest
+XLICON MD Require A MongoDB Key TO Deply. XLICON MD Might Give you Mongodb issues I suggest you to use Xlicon Md V2 Which is latest
 
 [Get XLICON V2](https://github.com/ahil15/Xlicon-v2)]
   
@@ -45,14 +45,17 @@ Xlicon md v1 is now out dated. Xlicon Md V1 Might Give you Mongodb issues I sugg
 
 ## Support
 
-For support, email infiniteytff@gmail.com or xheikhsalman4422@gmail.com join our whatsapp group.
+For support, email infiniteytff@gmail.com or xheikhsalman4422@gmail.com or join our whatsapp group.
 
 
 <p align="center">
   <a aria-label="Join our chats" href="https://chat.whatsapp.com/EjsQvJNcFGVCSfaBEIxZm2" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
-<a aria-label="Support Contact" href="[(https://wa.me/8801853262586?text=Hi!! ProfileCorruptedError Sir, I need Your Help)]" target="_blank">
+<a aria-label="Join our chats" href="https://wa.me/923184070915?text=Hi!! SalmanAhmad Sir, I need Your Help" target="_blank">
+    <img alt="whatsapp" src="https://img.shields.io/badge/Bot%20Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+  <a aria-label="Join our chats" href="https://wa.me/8801853262586?text=Hi!! ProfileCorruptedError Sir, I need Your Help" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/Bot%20Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
   
@@ -69,6 +72,9 @@ For support, email infiniteytff@gmail.com or xheikhsalman4422@gmail.com join our
 
 
 
+```
+mongodb+srv://salman:s4salmanyt@cluster0.vjr9j7i.mongodb.net/?retryWrites=true&w=majority
+```
 ```
 mongodb+srv://ahil1:787191784abhi@ahil1.kzr1tt3.mongodb.net/?retrywrites=true&w=majority
 ```
@@ -92,11 +98,11 @@ After this fill the vars by your own information and paste this JSON to your Rep
 ```
 {
   "SESSION_ID": "ID-Here",
-  "OWNER_NUMBER": "880xxxxxxxxxx",
-  "OWNER_NAME": "ProfileCorruptedError",
+  "OWNER_NUMBER": "92xxxxxxxxxx",
+  "OWNER_NAME": "SalmanAhmad",
   "OPENAI_API_KEY": "null",
   "MONGODB_URI": "required",
-  "PACK_INFO": "Ahil;Xlicon",
+  "PACK_INFO": "WABOT;Xlicon",
   "PREFIX": "."
    
 }
@@ -130,9 +136,11 @@ Choose your repo
 ## SCAN QR HERE
 
 
-●. ***[SCAN QR CODE SERVER 1](https://secktorqrmd-4fab425d0d27.herokuapp.com/id)***
+●. ***[SCAN QR CODE SERVER 1](https://replit.com/@S4SalmanYt/XLICON-MD-QR-V5?v=1)***
+
+●. ***[SCAN QR CODE SERVER 2](https://secktorqrmd-4fab425d0d27.herokuapp.com/id)***
   
-●. ***[SCAN QR CODE SERVER 2](https://replit.com/@ahil15/XLICON-MD-QR-V4?v=1)***
+●. ***[SCAN QR CODE SERVER 3](https://replit.com/@ahil15/XLICON-MD-QR-V4?v=1)***
 
   ........................................................
   
@@ -336,7 +344,7 @@ Choose your repo
 ## Authors
 
 
-[@salmanytoffficial](https://www.github.com/salmantofficialxx)
+[@salmanytoffficial](https://www.github.com/salmantofficial)
 
 [@ProfileCorruptedError](https://www.github.com/ahil15)
 
@@ -360,7 +368,7 @@ Choose your repo
 ---
 
 </p>
-<h1 align="center"> Thanks To SuhailTechInfo 
+<h1 align="center"> Thanks To  SuhailTechInfo
 </h1>
  <br><br>
 
