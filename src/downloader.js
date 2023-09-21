@@ -236,9 +236,6 @@ Duration: ${video.timestamp}
         citel.reply("An error occurred while processing your request.");
     }
 });
-
-        }
-    )
     
 
     //---------------------------------------------------------------------------
