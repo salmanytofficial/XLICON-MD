@@ -44,7 +44,7 @@
       THUMB_IMAGE = "https://telegra.ph/file/8f6f537cc4103b48f3783.jpg"
       port = 5000
       email = "xxxxxxxxxxxxx@gmail.com"
-      global_url = "www.instagram.com/sla.sher_"
+      global_url = "www.instagram.com/itz_shaikho/_"
       OWNER_NAME = "SALMAN"
       AUTO_REACTION = false
       FAKE_COUNTRY_CODE = 354
@@ -57,7 +57,7 @@
       WELCOME_MESSAGE =  "*Hi,* @user \n*Welcome in* @gname \n*Member count* : @count th"
       THEME= GOJO
       WORKTYPE = public
-      PACK_INFO = "Ahil;ProfileCorruptedError"
+      PACK_INFO = "XLICON MD;WA BOT"
       ANTILINK_VALUES = "chat.whatsapp.com"
       
       ```
