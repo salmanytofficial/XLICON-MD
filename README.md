@@ -356,10 +356,9 @@ Choose your repo
 
 * [`🎐 Sampandey`](https://github.com/SamPandey001)
 * [`🎐 SuhailTechInfo`](https://github.com/SuhailTechInfo)
-* [`🎐 SALMAN AHMAD`](https://github.com/salmanytofficial)
+* [`🎐 SLASHER`](https://github.com/ahil15)
 * [`🎐Kai..!!!`](https://github.com/Kai0071)
-* [`🎐 FantoX`](https://github.com/FantoX001)
-* [`🎐 Ahmii-kun`](https://github.com/Ahmii-kun)
+* [`🎐 Abraham Dwamena`](https://github.com/abrahamdw882)
 * [`🎐 MR-KALINDU`](https://github.com/MR-KALINDU)
 * [`🎐 MAHER-ZUBAIR`](https://github.com/Maher-Zubair)
 * [`🎐 Pikachu`](https://github.com/PikaBotz)
