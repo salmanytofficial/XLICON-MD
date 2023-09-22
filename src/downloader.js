@@ -203,39 +203,43 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-    pattern: "play",
-    desc: "Sends info about the query (of YouTube video/audio).",
-    category: "downloader",
-    filename: __filename,
-    use: '<faded-Alan walker.>',
-    copyright: "© Abraham Dwamena"
-},
-async (Void, citel, text) => {
-    if (!text) return citel.reply(`Use ${command} Back in Black`);
+            pattern: "play",
+            desc: "Sends info about the query(of youtube video/audio).",
+            category: "downloader",
+            filename: __filename,
+            use: '<faded-Alan walker.>',
+        },
+        async(Void, citel, text) => {
+            if (!text) return citel.reply(`Use ${command} Back in Black`);
+            let yts = require("secktor-pack");
+            let search = await yts(text);
+            let anu = search.videos[0];
+            let buttonMessage = {
+                image: {
+                    url: anu.thumbnail,
+                },
+                caption: `
+╭─┈ ⋞ 〈 Xʟɪᴄᴏɴ-Mᴜʟᴛɪᴅᴇᴠɪᴄᴇ 🦄〉 ⋟ ┈─╗
+﹀
+⌲🎐 *Youtube Player* ✅
+⌲🐉 *Title:* ${anu.title}
+⌲🏮 *Duration:* ${anu.timestamp}
+⌲📥 *Viewers:* ${anu.views}
+⌲🎗 *Uploaded:* ${anu.ago}
+⌲🌊 *Author:* ${anu.author.name}
+︿
+╰───━◦○◦━◦○◦━──────╝
+⦿ *Url* : ${anu.url}
+`,
+                footer: tlang().footer,
+                headerType: 4,
+            };
+            return Void.sendMessage(citel.chat, buttonMessage, {
+                quoted: citel,
+            });
 
-    try {
-        // Search for the video on YouTube
-        const searchResults = await yts(text);
-        const video = searchResults.videos[0];
-
-        // Download the audio stream of the video
-        const audioStream = ytdl(video.url, { quality: 'highestaudio' });
-
-        // You can now process the audioStream as needed
-        // For example, you can save it to a file, send it as a voice message, etc.
-
-        // Example: Sending a reply with the video title and some emojis
-        const replyMessage = `
-🎵 Now playing: ${video.title} 🎶
-Duration: ${video.timestamp}
-🔗 URL: ${video.url}
-`;
-        Void.sendMessage(citel.chat, replyMessage, { quoted: citel });
-    } catch (error) {
-        console.error(error);
-        citel.reply("An error occurred while processing your request.");
-    }
-});
+        }
+    )
     
 
     //---------------------------------------------------------------------------
