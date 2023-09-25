@@ -202,40 +202,23 @@ cmd({
         }
     )
     //---------------------------------------------------------------------------
-cmd({
-    pattern: "play",
-    desc: "Sends info about the query (of YouTube video/audio).",
-    category: "downloader",
-    filename: __filename,
-    use: '<faded-Alan walker.>',
-    copyright: "© Abraham Dwamena"
-},
-async (Void, citel, text) => {
-    if (!text) return citel.reply(`Use ${command} Back in Black`);
-
-    try {
-        // Search for the video on YouTube
-        const searchResults = await yts(text);
-        const video = searchResults.videos[0];
-
-        // Download the audio stream of the video
-        const audioStream = ytdl(video.url, { quality: 'highestaudio' });
-
-        // You can now process the audioStream as needed
-        // For example, you can save it to a file, send it as a voice message, etc.
-
-        // Example: Sending a reply with the video title and some emojis
-        const replyMessage = `
-🎵 Now playing: ${video.title} 🎶
-Duration: ${video.timestamp}
-🔗 URL: ${video.url}
-`;
-        Void.sendMessage(citel.chat, replyMessage, { quoted: citel });
-    } catch (error) {
-        console.error(error);
-        citel.reply("An error occurred while processing your request.");
-    }
-});
+cmd({pattern: "play",alias: ["music"],desc: "download audio from yt.",category: "downloader", filename: __filename,use: '<text | url.>',},
+async(void, citel, text) => {
+  text = text ? text : citel.quoted && citel.quoted.text ? citel.quoted.text : ""  
+  if (!text) return citel.reply(`${prefix}play back in black`);
+  try {
+    let vid = ytIdRegex.exec(text) || [], urlYt = vid[0] || false;
+    if (!urlYt) { let yts = require("secktor-pack"),search = await yts(text),anu = search.videos[0];urlYt = anu.url;  }
+    vid = ytIdRegex.exec(urlYt) || [];
+    let info =await yt.getInfo(vid[1]);
+    if( info  && info.duration  >= videotime) return await citel.reply(`Can't dowanload, file duration too big`);
+    await citel.send(`Downloading ${info.title}?`);
+    let file = await yt.download(vid[1],{type : "audio",quality:"best"})
+    console.log("file:",file)
+    file ? await void.sendMessage(citel.chat, {audio: {url : file } ,mimetype: 'audio/mpeg', }) :  await citel.send("Video not Found"); 
+    try{fs.unlinkSync(file)}catch{}
+  }catch (e) { console.log(" Play error, "  , e); return citel.error(`${e} \n\ncmdName : play`) }
+})
     
 
     //---------------------------------------------------------------------------
