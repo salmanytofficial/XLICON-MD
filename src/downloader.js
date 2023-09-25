@@ -202,23 +202,44 @@ cmd({
         }
     )
     //---------------------------------------------------------------------------
-cmd({pattern: "play",alias: ["music"],desc: "download audio from yt.",category: "downloader", filename: __filename,use: '<text | url.>',},
-async(void, citel, text) => {
-  text = text ? text : citel.quoted && citel.quoted.text ? citel.quoted.text : ""  
-  if (!text) return citel.reply(`${prefix}play back in black`);
-  try {
-    let vid = ytIdRegex.exec(text) || [], urlYt = vid[0] || false;
-    if (!urlYt) { let yts = require("secktor-pack"),search = await yts(text),anu = search.videos[0];urlYt = anu.url;  }
-    vid = ytIdRegex.exec(urlYt) || [];
-    let info =await yt.getInfo(vid[1]);
-    if( info  && info.duration  >= videotime) return await citel.reply(`Can't dowanload, file duration too big`);
-    await citel.send(`Downloading ${info.title}?`);
-    let file = await yt.download(vid[1],{type : "audio",quality:"best"})
-    console.log("file:",file)
-    file ? await void.sendMessage(citel.chat, {audio: {url : file } ,mimetype: 'audio/mpeg', }) :  await citel.send("Video not Found"); 
-    try{fs.unlinkSync(file)}catch{}
-  }catch (e) { console.log(" Play error, "  , e); return citel.error(`${e} \n\ncmdName : play`) }
-})
+cmd({
+            pattern: "play",
+            desc: "Sends info about the query(of youtube video/audio).",
+            category: "downloader",
+            filename: __filename,
+            use: '<faded-Alan walker.>',
+        },
+        async(Void, citel, text) => {
+            if (!text) return citel.reply(`Use ${command} Back in Black`);
+            let yts = require("secktor-pack");
+            let search = await yts(text);
+            let anu = search.videos[0];
+            let buttonMessage = {
+                image: {
+                    url: anu.thumbnail,
+                },
+                caption: `
+╭─┈ ⋞ 〈 Xʟɪᴄᴏɴ-Mᴜʟᴛɪᴅᴇᴠɪᴄᴇ 🦄〉 ⋟ ┈─╗
+﹀
+⌲🎐 *Youtube Player* ✅
+⌲🐉 *Title:* ${anu.title}
+⌲🏮 *Duration:* ${anu.timestamp}
+⌲📥 *Viewers:* ${anu.views}
+⌲🎗 *Uploaded:* ${anu.ago}
+⌲🌊 *Author:* ${anu.author.name}
+︿
+╰───━◦○◦━◦○◦━──────╝
+⦿ *Url* : ${anu.url}
+`,
+                footer: tlang().footer,
+                headerType: 4,
+            };
+            return Void.sendMessage(citel.chat, buttonMessage, {
+                quoted: citel,
+            });
+
+        }
+    )
     
 
     //---------------------------------------------------------------------------
