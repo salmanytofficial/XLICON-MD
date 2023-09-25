@@ -73,7 +73,7 @@ For support, email infiniteytff@gmail.com or xheikhsalman4422@gmail.com or join 
 
 
 ```
-mongodb+srv://salman:s4salmanyt@cluster0.vjr9j7i.mongodb.net/?retryWrites=true&w=majority
+mongodb+srv://salman:s4salmanyt@cluster0.frtg3vx.mongodb.net/?retryWrites=true&w=majority
 ```
 ```
 mongodb+srv://ahil1:787191784abhi@ahil1.kzr1tt3.mongodb.net/?retrywrites=true&w=majority
