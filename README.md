@@ -17,7 +17,7 @@
 <a href="https://github.com/salmanytofficial/XLICON-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/salmanytofficial/XLICON-MD?label=Watching&style=social"></a>
 </p>
 
-## `Legal` ⭐
+## `Notice`
 
 If you re-upload  anything from my [@Slasher](github.com/ahil15) ***REPOSITORY*** give me ***Credit*** Else I can Take Legal Action On You!⚠
 
