@@ -339,7 +339,7 @@ Choose your repo
 
 ## `Authors`
 
-- Owner [@salmanytoffficial](https://www.github.com/salmantofficial)
+- Owner [@salmanytoffficial](https://www.github.com/salmanytofficial)
 
 - C.Owner [@Slasher](https://www.github.com/ahil15)
 
