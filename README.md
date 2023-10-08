@@ -1,4 +1,8 @@
-</p>
+# XLICON-MD
+<div align="left">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=ff0000&center=true&width=900&height=100&lines=Its XLICON-MD;Multi+Divice+Whatsapp+Bot;Developed+By+SALMAN AHMAD" alt="Typing SVG" /></a>
+  
+  
 <p align="center">
   <a href="">
     <img alt=Support height="300" src="https://telegra.ph/file/3c341828d86ee7a89c73f.jpg"> 
@@ -7,6 +11,7 @@
     
    </a>
 </p>
+  
 <p align="center">
 <a href="https://github.com/salmanytofficial"><img title="Author" src="https://img.shields.io/badge/XLICON-BOT-black?style=for-the-badge&logo=whatsapp"></a>
 <p/>
@@ -67,7 +72,7 @@ For support, email [ xheikhsalman4422@gmail.com ] or join our whatsapp group.
 
 
 <p align="center">
-  <a aria-label="Join our chats" href="https://chat.whatsapp.com/EjsQvJNcFGVCSfaBEIxZm2" target="_blank">
+  <a aria-label="Join our chats" href="https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
 <a aria-label="Join our chats" href="https://wa.me/923184070915?text=Hi!! SalmanAhmad Sir, I need Your Help" target="_blank">
@@ -198,7 +203,7 @@ Choose your repo
 </p>
 
 <p align="center" >
-    <a href="https://heroku.com/deploy?template=https://github.com/salmanytofficial/XLICON-MD">
+    <a href="https://heroku.com/deploy?template=https://github.com/Xheikhsalman4444/XLICON-MD">
     <img src="https://www.herokucdn.com/deploy/button.png" width="170px" alt="Deploy on Heroku" >
     </a>
 
@@ -339,9 +344,23 @@ Choose your repo
 
 ## `Authors`
 
-- Owner [@salmanytoffficial](https://www.github.com/salmanytofficial)
+<div align="center">
+  
+| [![𝚂𝚊𝚕𝚖𝚊𝚗𝙾𝚏𝚏𝚒𝚌𝚒𝚊𝚕](https://github.com/salmanytofficial.png?size=150)](https://github.com/salmanytofficial)|
+|----|
+| [ 𝙎𝘼𝙇𝙈𝘼𝙉 𝘼𝙃𝙈𝘼𝘿 ](https://github.com/salmanytofficial) |
+|  Owner, Developer, Bug Fixer, Maintainer, updates |
 
-- C.Owner [@Slasher](https://www.github.com/ahil15)
+  
+| [![SlasherOfficial](https://github.com/ahil15.png?size=150)](https://github.com/ahil15) |
+|----|
+| [ N ᴏ ᴛ   S ʟ ᴀ ꜱ ʜ ᴇ ʀ ](https://github.com/ahil15) |
+|  Co.Owner , Bug Fixer, |
+
+  </div>
+  
+   
+  </br> 
 
 
 <h2 align="left">  Reminder
@@ -358,21 +377,18 @@ Choose your repo
 <h1 align="left">  ✨Spacial Thanks To🎯
 </h1>
 
-* [`🎐 Sampandey`](https://github.com/SamPandey001)
-* [`🎐 SuhailTechInfo`](https://github.com/SuhailTechInfo)
-* [`🎐 SLASHER`](https://github.com/ahil15)
-* [`🎐Kai..!!!`](https://github.com/Kai0071)
-* [`🎐 Abraham Dwamena`](https://github.com/abrahamdw882)
-* [`🎐 MR-KALINDU`](https://github.com/MR-KALINDU)
-* [`🎐 MAHER-ZUBAIR`](https://github.com/Maher-Zubair)
-* [`🎐 Pikachu`](https://github.com/PikaBotz)
-* [`🎐 AsliGuru`](https://github.com/Guru322)
+* [`🎐 Sampandey`](https://github.com/SamPandey001) ***For Sector MD Base***
+* [`🎐 SuhailTechInfo`](https://github.com/SuhailTechInfo) ***For Plugins and Debugging***
+* [`🎐 Abraham Dwamena`](https://github.com/abrahamdw882) ***For QR Ideas***
+* [`🎐 MR-KALINDU`](https://github.com/MR-KALINDU) ***For Fixing Plugins***
+* [`🎐 MAHER-ZUBAIR`](https://github.com/Maher-Zubair) ***For Fixing Errors***
 
 ---
 
 </p>
 <h1 align="center"> Thanks To  SuhailTechInfo
 </h1>
+
  <br><br>
 
 
