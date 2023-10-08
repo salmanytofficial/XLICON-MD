@@ -97,7 +97,7 @@
      "value": "false",
      "required": false 
   },
-  "PACK_AUTHOR": {
+  "PACK_AUTHER": {
     "description": "PUT STICKER AUTHOR NAME",
     "value": ""
   },
