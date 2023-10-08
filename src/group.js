@@ -6,7 +6,7 @@
  * @project_name : Xlicon-MD
  * @author : salmanytofficial <https://github.com/salmanytofficial>
  * @description : Xlicon,A Multi-functional whatsapp bot.
- * @version 0.0.6 
+ * @version 0.0.6
  **/
 
 const { sck, sck1,cmd, jsonformat, botpic, TelegraPh, RandomXP, Config, tlang, warndb, sleep,getAdmin,getBuffer, prefix } = require('../lib')
