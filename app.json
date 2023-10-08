@@ -99,11 +99,11 @@
   },
   "PACK_AUTHOR": {
     "description": "PUT STICKER AUTHOR NAME",
-    "value": "XLICON-MD"
+    "value": ""
   },
   "PACK_NAME": {
     "description": "PUT STICKER PACK NAME",
-    "value": "Wa-BOT"
+    "value": ""
   },
   "heroku": {
     "description": "Weather it is on heroku or not",
