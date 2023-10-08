@@ -34,7 +34,50 @@ cmd({
         }
     )
     //---------------------------------------------------------------------------
+
+    cmd({
+        pattern: "revoke",
+        desc: "reset group link.",
+        category: "group",
+        filename: __filename,
+    },
+	 async(Void, citel, text,{ isCreator }) => {
+	    if (!citel.isGroup) return citel.reply(tlang().group);
+	    
+        const groupAdmins = await getAdmin(Void, citel)	
+	const botNumber = await Void.decodeJid(Void.user.id)
+        const isBotAdmins =groupAdmins.includes(botNumber)
+	if (!isBotAdmins) return citel.reply(tlang().admin);
+	    
+var code = await Void.groupRevokeInvite(citel.chat)
+return citel.reply("*_Group Link Revoked SuccesFully_*");
+	
+    }
+	)
     //---------------------------------------------------------------------------
+
+    cmd({
+        pattern: "invite",
+        alias:["glink"],
+        desc: "get group link.",
+        category: "group",
+        filename: __filename,
+    },
+	 async(Void, citel, text,{ isCreator }) => {
+	    if (!citel.isGroup) return citel.reply(tlang().group);
+	    
+        const groupAdmins = await getAdmin(Void, citel)	
+	    const botNumber = await Void.decodeJid(Void.user.id)
+        const isBotAdmins =groupAdmins.includes(botNumber)
+	
+if (!isBotAdmins) return citel.reply(tlang().admin);
+var str1 = await Void.groupInviteCode(citel.chat)
+var str2 ="https://chat.whatsapp.com/"
+var mergedString = `${str2}${str1}`;
+return citel.reply("*_Group Invite Link Is Here_* \n*_"+mergedString+"_*");
+	
+    }
+	)
 //---------------------------------------------------------------------------
 cmd({
             pattern: "sticker",
@@ -90,10 +133,9 @@ cmd({
         filename: __filename,
     },
     async(Void, citel, text) => {
-        citel.reply(`*Check your Pm ${tlang().greet}*`);
-        await Void.sendMessage(`${citel.sender}`, {
+        await Void.sendMessage(`${citel.chat}`, {
             image: log0,
-            caption: `*Group Name: Xlicon-Support*\n*Group Link:* https://chat.whatsapp.com/EjsQvJNcFGVCSfaBEIxZm2`,
+            caption: `*Group Name: Xlicon-Support*\n*Group Link:* https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk`,
         });
 
     }
@@ -173,7 +215,7 @@ cmd({
 ══✪〘   *Tag All*   〙✪══
 
 ➲ *Message :* ${text ? text : "blank"}\n\n
-➲ *Author:* ${citel.pushName} 🔖
+➲ *Author:* ${Config.ownername} 🔖
 `
         for (let mem of participants) {
             textt += `📍 @${mem.id.split("@")[0]}\n`;
