@@ -1,6 +1,6 @@
-# XLICON-MD
+#### XLICON-MD
 <div align="left">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=ff0000&center=true&width=900&height=100&lines=Its XLICON-MD;Multi+Divice+Whatsapp+Bot;Developed+By+SALMAN AHMAD" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=ff0000&center=true&width=900&height=100&lines=Its XLICON-MD;Multi+Device+Whatsapp+Bot;Developed+By+SALMAN AHMAD" alt="Typing SVG" /></a>
   
   
 <p align="center">
@@ -30,12 +30,12 @@ If you re-upload  anything from my [@Slasher](github.com/ahil15) ***REPOSITORY**
 
 ## `Announment` 🤫
 
-***XLICON-2.O*** is now Officially Announced ✨
+***BelugaBot-MD*** is now Officially Announced ✨
 
-<h1 align="center"> *XLICON-2.0*
+<h1 align="center"> *BelugaBot-MD*
 </h1>
 
-<p align="center"><a href="https://github.com/ahil15/Xlicon-v2"><img title="" src="https://img.shields.io/badge/XLICON%202.O-purple?style=for-the-badge&logo=github"></a>
+<p align="center"><a href="https://github.com/ahil15/BelugaBot-MD"><img title="" src="https://img.shields.io/badge/BelugaBot%20-purple?style=for-the-badge&logo=github"></a>
 
 ---
 
