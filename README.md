@@ -203,7 +203,7 @@ Choose your repo
 </p>
 
 <p align="center" >
-    <a href="https://heroku.com/deploy?template=https://github.com/Xheikhsalman4444/XLICON-MD">
+    <a href="https://heroku.com/deploy?template=https:/salmanytofficial/github.com//XLICON-MD">
     <img src="https://www.herokucdn.com/deploy/button.png" width="170px" alt="Deploy on Heroku" >
     </a>
 
