@@ -123,3 +123,29 @@
 		}
 	]
 }
+},
+        "AUTO_BIO": {
+            "description": "Setup AUTO BIO feature. Adding a live clock for your WhatsApp about.",
+            "required": true,
+            "value": "false"
+    },
+        "BIO": {
+            "description": "Change Your live Bio | ඔබේ About එකට අවශ්‍ය දෙයක් මෙහි ලියන්න",
+            "required": false,
+            "value": "ɪ ᴀᵐ ⁿᵒᵗ ᵖᵉʳᶠᵉᶜᵗ ʙᵘᵗ ɪ  ᴀᵐ ʟⁱᵐⁱᵗᵉᵈ ᴇᵈⁱᵗⁱᵒⁿ👀🔥"
+        },
+        "AUTO_STICKER": {
+            "description": "If you likes Auto Sticker you can write 'true'. Otherwise false",
+            "required": false,
+            "value": "false"
+	},
+        "MENU_INFO": {
+            "description": "write Some Words about yor Bot You can Edite this",
+            "required": false,
+            "value": "*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n*⦁◊═⦁king ali ⦁═◊⦁*"
+	},
+       },
+		"WARN_LIMIT": {
+			"description": "Maximum number of wanings to a person.",
+			"required": false,
+			"value": "3"
