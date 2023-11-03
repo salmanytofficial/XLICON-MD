@@ -91,7 +91,7 @@ For support, email [ xheikhsalman4422@gmail.com ] or join our whatsapp group.
 
 
 ```
-mongodb+srv://salmanytofficial:s4salmanyt@cluster0.6wtgil3.mongodb.net/?retryWrites=true&w=majority
+mongodb+srv://salman:s4salmanyt@salmanahmad.jj7ymis.mongodb.net/?retryWrites=true&w=majority
 ```
 
 | Parameter | Type     | Description                |
