@@ -30,17 +30,6 @@ If you re-upload  anything from my [@Slasher](github.com/ahil15) ***REPOSITORY**
 
 ---
 
-## `Announment` 🤫
-
-***BelugaBot-MD*** is now Officially Announced ✨
-
-<h1 align="center"> *BelugaBot-MD*
-</h1>
-
-<p align="center"><a href="https://github.com/ahil15/BelugaBot-MD"><img title="" src="https://img.shields.io/badge/BelugaBot%20-purple?style=for-the-badge&logo=github"></a>
-
----
-
     
 ## `Installation` 📲
 
