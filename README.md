@@ -22,6 +22,8 @@
 <a href="https://github.com/salmanytofficial/XLICON-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/salmanytofficial/XLICON-MD?label=Watching&style=social"></a>
 </p>
 
+<p align="center"><img src="https://profile-counter.glitch.me/{salmanytofficial}/count.svg" alt="Maher-Zubair :: Visitor's Count" /></p>
+
 ## `Notice`
 
 If you re-upload  anything from my [@Slasher](github.com/ahil15) ***REPOSITORY*** give me ***Credit*** Else I can Take Legal Action On You!⚠
