@@ -22,7 +22,7 @@
 <a href="https://github.com/salmanytofficial/XLICON-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/salmanytofficial/XLICON-MD?label=Watching&style=social"></a>
 </p>
 
-<p align="center"><img src="https://profile-counter.glitch.me/{salmanytofficial}/count.svg" alt="Maher-Zubair :: Visitor's Count" /></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{salmanytofficial}/count.svg" alt="SALMAN AHMAD :: Visitor's Count" /></p>
 
 ## `Notice`
 
