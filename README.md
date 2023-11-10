@@ -82,7 +82,7 @@ For support, email [ xheikhsalman4422@gmail.com ] or join our whatsapp group.
 
 
 ```
-mongodb+srv://salman:s4salmanyt@salmanahmad.jj7ymis.mongodb.net/?retryWrites=true&w=majority
+mongodb+srv://salmanytofficial:salman12345@xliconmd.p9tr5uu.mongodb.net/?retryWrites=true&w=majority
 ```
 
 | Parameter | Type     | Description                |
