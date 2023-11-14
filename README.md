@@ -24,6 +24,11 @@
 
 <p align="center"><img src="https://profile-counter.glitch.me/{salmanytofficial}/count.svg" alt="SALMAN AHMAD :: Visitor's Count" /></p>
 
+</br>
+
+<h2 align="center"> Star the repo if u like it🌟
+</h2>
+
 ## `Notice`
 
 Dont't Forget To ***SYNC FORK*** The Respository Before ***Deploy*** 
@@ -57,18 +62,6 @@ Dont't Forget To ***SYNC FORK*** The Respository Before ***Deploy***
 - Make your boring whatsapp fun
 
 
-## `Support`
-
-For support, email [ xheikhsalman4422@gmail.com ] or join our whatsapp group.
-
-
-<p align="center">
-  <a aria-label="Join our chats" href="https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk" target="_blank">
-    <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
-<a aria-label="Join our chats" href="https://wa.me/923184070915?text=Hi!! SalmanAhmad Sir, I need Your Help" target="_blank">
-    <img alt="whatsapp" src="https://img.shields.io/badge/Bot%20Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-</p>
 
 
 ## `MONGODB URL`
@@ -353,8 +346,30 @@ Choose your repo
    
   </br> 
 
+  ## `Support`
 
-<h2 align="left">  Reminder
+For support, email [ xheikhsalman4422@gmail.com ] or join our whatsapp group.
+
+
+<p align="center">
+  <a aria-label="Join our chats" href="https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk" target="_blank">
+    <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+<a aria-label="Join our chats" href="https://wa.me/923184070915?text=Hi!! SalmanAhmad Sir, I need Your Help" target="_blank">
+    <img alt="whatsapp" src="https://img.shields.io/badge/Bot%20Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</p>
+
+**Buy Me a Coffee**: Your support will help me stay motivated and continue working on exciting projects like this one.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.buymeacoffee.com/ahmmikun">
+  <img src="https://i.ibb.co/KNnhcvX/bmc-button.png" alt="Buy Me Coffee" height="40" width="150" style="margin-left: 60px;">
+</a>
+
+
+</br>
+
+
+<h2 align="center">  Reminder
 </h2>
    
 - This bot is not made by `WhatsApp Inc.` So misusing the bot might `ban` your `WhatsApp account!`(Though your WhatsApp account can be unbanned only once.)
