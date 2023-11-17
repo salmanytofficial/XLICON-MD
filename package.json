@@ -60,6 +60,9 @@
                        "fb-info-video":"^1.0.2",
                        "wa-sticker-formatter": "^4.3.2"
                       },
+                         "overrides": {
+                         "cache-manager": "5.2.2"
+                                      },
                   "directories": {
                        "lib": "lib",
                        "assets": "lib/assets"
