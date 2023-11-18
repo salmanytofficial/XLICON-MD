@@ -83,6 +83,7 @@
   "MONGODB_URI": {
     "description": "A secret String for Mongodb Connection.(Required),change for better experience",
     "value": ""
+    "required" :true
   },
     "THEME": {
     "description": "Put the theme name you want to use. Avilable themes are GOJO,ZEROTWO,NEZUKO,LUFFY,GOKU and many more..",
@@ -100,10 +101,12 @@
   "PACK_AUTHER": {
     "description": "PUT STICKER AUTHOR NAME",
     "value": ""
+    "required" :true
   },
   "PACK_NAME": {
     "description": "PUT STICKER PACK NAME",
     "value": ""
+    "required" :true
   },
   "heroku": {
     "description": "Weather it is on heroku or not",
