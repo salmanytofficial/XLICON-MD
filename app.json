@@ -100,12 +100,12 @@
   },
   "PACK_AUTHER": {
     "description": "PUT STICKER AUTHOR NAME",
-    "value": ""
+    "value": "",
     "required" :true
   },
   "PACK_NAME": {
     "description": "PUT STICKER PACK NAME",
-    "value": ""
+    "value": "",
     "required" :true
   },
   "heroku": {
