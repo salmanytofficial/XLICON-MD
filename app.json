@@ -20,7 +20,7 @@
        },
   "AUTO_READ_STATUS": {
     "description": "Fill the value true if you want bot view your Statuses.",
-    "required" :false,
+    "" :false,
     "value": "false"
       },
     "HEROKU_API_KEY": {
@@ -82,7 +82,7 @@
   },
   "MONGODB_URI": {
     "description": "A secret String for Mongodb Connection.(Required),change for better experience",
-    "value": ""
+    "value": "",
     "required" :true
   },
     "THEME": {
