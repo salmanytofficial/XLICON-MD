@@ -330,15 +330,16 @@ Choose your repo
 
 <div align="center">
   
-| [![𝚂𝚊𝚕𝚖𝚊𝚗𝙾𝚏𝚏𝚒𝚌𝚒𝚊𝚕](https://github.com/salmanytofficial.png?size=150)](https://github.com/salmanytofficial)|
+| [![𝚂𝚊𝚕𝚖𝚊𝚗𝙾𝚏𝚏𝚒𝚌𝚒𝚊𝚕](https://github.com/salmanytofficial.png?lenght=50width=50)](https://github.com/salmanytofficial)|
 |----|
 | [ 𝙎𝘼𝙇𝙈𝘼𝙉 𝘼𝙃𝙈𝘼𝘿 ](https://github.com/salmanytofficial) |
 |  Owner, Developer, Bug Fixer, Maintainer, updates |
 
+<br>
   
-| [![SlasherOfficial](https://github.com/ahil15.png?size=150)](https://github.com/ahil15) |
+| [![SlasherOfficial](https://github.com/Maher-Zubair.png?lenght=50width=50)](https://github.com/Maher-Zubair) |
 |----|
-| [ N ᴏ ᴛ   S ʟ ᴀ ꜱ ʜ ᴇ ʀ ](https://github.com/ahil15) |
+| [ 𝙈𝙀𝙃𝘼𝙍 𝙕𝙐𝘽𝘼𝙄𝙍 ](https://github.com/Maher-Zubair) |
 |  Co.Owner , Bug Fixer, |
 
   </div>
@@ -384,10 +385,11 @@ For support, email [ xheikhsalman4422@gmail.com ] or join our whatsapp group.
 </h1>
 
 * [`🎐 Sampandey`](https://github.com/SamPandey001) ***For Sector MD Base***
-* [`🎐 SuhailTechInfo`](https://github.com/SuhailTechInfo) ***For Plugins and Debugging***
+* [`🎐 SuhailTechInfo`](https://github.com/SuhailTechInfo) ***For Scripts and Debugging***
+* [`🎐 MAHER-ZUBAIR`](https://github.com/Maher-Zubair) ***For Fixing Plugins***
 * [`🎐 Abraham Dwamena`](https://github.com/abrahamdw882) ***For QR Ideas***
-* [`🎐 MR-KALINDU`](https://github.com/MR-KALINDU) ***For Fixing Plugins***
-* [`🎐 MAHER-ZUBAIR`](https://github.com/Maher-Zubair) ***For Fixing Errors***
+* [`🎐 MR-KALINDU`](https://github.com/MR-KALINDU) ***For Fixing Errors***
+* 
 
 ---
 
