@@ -98,3 +98,34 @@ return citel.reply(replyf)
                     }
     }
 )
+
+ //---------------------------------------------------------------------------
+
+cmd({
+  pattern: "age",
+  desc: 'Estimate the age based on a given name',
+  catergory: "fun",
+  fromMe: true,
+},
+  async (Void, citel, text) => {
+    if (!text) {
+      return citel.reply, 'Please provide a name for age estimation.')
+    };
+    try {
+      const response = await axios.get(`https://api.agify.io/?name=${encodeURIComponent(name)}`);
+      
+      const { name: agifyName, age } = response.data;
+      
+      if (age) {
+        return citel.reply, `Based on the name "${agifyName}", the estimated age is ${age} years.`);
+      } else {
+        return await citel.reply, `Unable to estimate age for the name "${agifyName}".`);
+      }
+    } catch (error) {
+      console.error(error);
+      return await citel.reply, 'Error estimating age. Please try again later.');
+    }
+  }
+);
+
+ //---------------------------------------------------------------------------
