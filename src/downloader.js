@@ -66,6 +66,189 @@ cmd({
  })
 //---------------------------------------------------------------------------
 
+ cmd({
+        pattern: "ydesc",
+        desc: "Gives descriptive info of query from youtube..",
+        category: "downloader",
+        filename: __filename,
+        use: '<yt search text>',
+    },
+    async(Void, citel, text) => {
+        let yts = require("secktor-pack");
+        if (!text) return citel.reply(`Example : ${prefix}yts ${tlang().title} WhatsApp Bot`);
+        let search = await yts(text);
+        let textt = "*YouTube Search*\n\n Result From " + text + "\n\n───────────────────\n";
+        let no = 1;
+        for (let i of search.all) {
+            textt += `⚡ No : ${no++}\n ❤Title : ${i.title}\n♫ Type : ${
+      i.type
+    }\n👾Views : ${i.views}\n⌛Duration : ${
+      i.timestamp
+    }\n⬆️Upload At : ${i.ago}\n👑Author : ${i.author.name}\n🎵Url : ${
+      i.url
+    }\n\n──────────────\n\n`;
+        }
+        return Void.sendMessage(citel.chat, {
+            image: {
+                url: search.all[0].thumbnail,
+            },
+            caption: textt,
+        }, {
+            quoted: citel,
+        });
+    }
+)
+
+
+//---------------------------------------------------------------------------
+
+cmd({
+            pattern: "apk",
+            desc: "Downloads apks  .",
+            category: "downloader",
+            filename: __filename,
+            use: '<add sticker url.>',
+        },
+
+        async(Void, citel, text) => {
+        if(!text )return citel.reply("*Give me App Name*");
+
+	const getRandom = (ext) => { return `${Math.floor(Math.random() * 10000)}${ext}`; };
+	let randomName = getRandom(".apk");
+	const filePath = `./${randomName}`;     // fs.createWriteStream(`./${randomName}`)
+        const {  search , download } = require('aptoide-scraper')
+	let searc = await search(text);          //console.log(searc);
+	let data={};
+	if(searc.length){ data = await download(searc[0].id); }
+	else return citel.send("*APP not Found, Try Other Name*");
+	
+	
+	const apkSize = parseInt(data.size);
+	if(apkSize > 150) return citel.send(`❌ File size bigger than 200mb.`);
+       const url = data.dllink;
+	 let  inf  ="*App Name :* " +data.name;
+         inf +="\n*App id        :* " +data.package;
+         inf +="\n*Last Up       :* " +data.lastup;
+         inf +="\n*App Size     :* " +data.size;
+        // inf +="\n*App Link     :* " +data.dllink;
+	inf +="\n\n "
+         
+
+axios.get(url, { responseType: 'stream' })
+  .then(response => {
+    const writer = fs.createWriteStream(filePath);
+    response.data.pipe(writer);
+
+    return new Promise((resolve, reject) => {
+      writer.on('finish', resolve);
+      writer.on('error', reject);
+    });
+  }).then(() => {
+	
+	let buttonMessage = {
+                        document: fs.readFileSync(filePath),
+                        mimetype: 'application/vnd.android.package-archive',
+                        fileName: data.name+`.apk`,
+                        caption : inf
+                        
+                    }
+                  Void.sendMessage(citel.chat, buttonMessage, { quoted: citel })
+
+    console.log('File downloaded successfully');
+
+  
+    fs.unlink(filePath, (err) => {
+      if (err) { console.error('Error deleting file:', err); } else { console.log('File deleted successfully'); } });
+  }) .catch(error => {
+	fs.unlink(filePath)
+    return citel.reply('*Apk not Found, Sorry*')//:', error.message);
+  });
+}
+)
+
+
+//---------------------------------------------------------------------------
+
+cmd({
+            pattern: "pint",
+            desc: "Downloads image from pinterest.",
+            category: "downloader",
+            filename: __filename,
+            use: '<text|image name>',
+        },
+        async(Void, citel, text) => {
+            if (!text) return reply("What picture are you looking for?") && Void.sendMessage(citel.chat, {
+                react: {
+                    text: '❌',
+                    key: citel.key
+                }
+            })
+            try {
+                anu = await pinterest(text)
+                result = anu[Math.floor(Math.random() * anu.length)]
+                let buttonMessage = {
+                    image: {
+                        url: result
+                    },
+                    caption: ` `,
+                    footer: tlang().footer,
+                    headerType: 4,
+                    contextInfo: {
+                        externalAdReply: {
+                            title: `Here you go✨`,
+                            body: `${Config.ownername}`,
+                            thumbnail: log0,
+                            mediaType: 2,
+                            mediaUrl: ``,
+                            sourceUrl: ``
+                        }
+                    }
+                }
+                return Void.sendMessage(citel.chat, buttonMessage, {
+                    quoted: citel
+                })
+            } catch (e) {
+                console.log(e)
+            }
+        })
+
+//---------------------------------------------------------------------------
+
+cmd({
+            pattern: "mediafire",
+            desc: "Downloads zip from Mediafire.",
+            category: "downloader",
+            filename: __filename,
+            use: '<url of mediafire>',
+        },
+        async(Void, citel, text) => {
+            if (!text) return citel.reply(`Give link ${tlang().greet}`);
+            if (!isUrl(text.split(" ")[0]) && !text.split(" ")[0].includes("mediafire.com")) return reply(`The link you provided is invalid`);
+            const baby1 = await mediafire(text);
+            if (baby1[0].size.split("MB")[0] >= 999) return reply("*File Over Limit* " + util.format(baby1));
+            const result4 = `*ᴵᶻᵁᴷᵁ Mᴇᴅɪᴀғɪʀᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ*
+*Nᴀᴍᴇ* : ${baby1[0].nama}
+*Sɪᴢᴇ* : ${baby1[0].size}
+*Mɪᴍᴇ* : ${baby1[0].mime}
+*Lɪɴᴋ* : ${baby1[0].link}`;
+            reply(`${result4}`);
+            return Void.sendMessage(citel.chat, {
+                    document: {
+                        url: baby1[0].link,
+                    },
+                    fileName: baby1[0].nama,
+                    mimetype: baby1[0].mime,
+                }, {
+                    quoted: citel,
+                })
+                .catch((err) => reply("could not find anything"));
+
+        }
+    )
+
+//---------------------------------------------------------------------------
+
+
 async function tiktokdl (url) {
     const gettoken = await axios.get("https://tikdown.org/id");
     const $ = cheerio.load(gettoken.data);
