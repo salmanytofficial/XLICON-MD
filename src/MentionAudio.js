@@ -1,7 +1,7 @@
 const { tlang,cmd,getBuffer } = require('../lib')
 const Config = require('../config')
 const axios = require('axios')
-var nicetitle = '𝐒𝐀𝐋𝐌𝐀𝐍 𝐀𝐇𝐌𝐀𝐃'
+var nicetitle = '⋞͓𝟒͜x̽𖧼⃞͓𝐋̽uᴄᴋ̽͢𝐘 𝐒᪵ᴇ⃝ʀ͛⋟⭜𖤱𖡄➤'
 var nicebody = "|| ◁ㅤ❚❚ㅤ▷||ㅤ ↻"
 var niceurl = 'https://github.com/SamPandey001/Secktor-Md'
 const nicepic = 'https://wallpapercave.com/wp/wp9556281.jpg';
@@ -10,7 +10,7 @@ cmd({
     pattern: "mentionpreview",
     desc: "No-Desc"
     category: "No-cat",         
-    react: "😐"
+    react: "🎼"
   },
 */
 const data = [ 
