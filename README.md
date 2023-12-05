@@ -1,6 +1,6 @@
 ## `XLICON-MD`
 <div align="left">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=ff0000&center=true&width=900&height=100&lines=Its XLICON-MD;Multi+Device+Whatsapp+Bot;Developed+By+LUCKY SKBA" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=ff0000&center=true&width=900&height=100&lines=Its XLICON-MD;Multi+Device+Whatsapp+Bot;Developed+By+LUCKYSKBA" alt="Typing SVG" /></a>
   
   
 <p align="center">
@@ -330,7 +330,7 @@ Choose your repo
 
 <div align="center">
   
-| [![𝚂𝚊𝚕𝚖𝚊𝚗𝙾𝚏𝚏𝚒𝚌𝚒𝚊𝚕](https://github.com/salmanytofficial.png?lenght=50width=50)](https://github.com/salmanytofficial)|
+| [![𝚂𝚊𝚕𝚖𝚊𝚗𝙾𝚏𝚏𝚒𝚌𝚒𝚊𝚕]([https://i.imgur.com/pLi4kQD.png?lenght=50width=50](https://i.imgur.com/pLi4kQD.jpeg))](https://github.com/salmanytofficial)|
 |----|
 | [𝙇𝙐𝘾𝙆𝙔 𝙎𝙀𝙍 𝙎𝙆𝘽𝘼  ](https://github.com/LUCKYSERSKBA) |
 |  Owner, Developer, Bug Fixer, Maintainer, updates |
