@@ -22,7 +22,7 @@
 <a href="https://github.com/salmanytofficial/XLICON-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/salmanytofficial/XLICON-MD?label=Watching&style=social"></a>
 </p>
 
-<p align="center"><img src="https://profile-counter.glitch.me/{salmanytofficial}/count.svg" alt="SALMAN AHMAD :: Visitor's Count" /></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{salmanytofficial}/count.svg" alt="LUCKY SKBA:: Visitor's Count" /></p>
 
 </br>
 
@@ -332,7 +332,7 @@ Choose your repo
   
 | [![𝚂𝚊𝚕𝚖𝚊𝚗𝙾𝚏𝚏𝚒𝚌𝚒𝚊𝚕](https://github.com/salmanytofficial.png?lenght=50width=50)](https://github.com/salmanytofficial)|
 |----|
-| [ 𝙎𝘼𝙇𝙈𝘼𝙉 𝘼𝙃𝙈𝘼𝘿 ](https://github.com/salmanytofficial) |
+| [𝙇𝙐𝘾𝙆𝙔 𝙎𝙀𝙍 𝙎𝙆𝘽𝘼  ](https://github.com/LUCKYSERSKBA) |
 |  Owner, Developer, Bug Fixer, Maintainer, updates |
 
 <br>
@@ -349,21 +349,21 @@ Choose your repo
 
   ## `Support`
 
-For support, email [ xheikhsalman4422@gmail.com ] or join our whatsapp group.
+For support, email [ fdbluckyser@gmail.com ] or join our whatsapp group.
 
 
 <p align="center">
-  <a aria-label="Join our chats" href="https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk" target="_blank">
+  <a aria-label="Join our chats" href="https://chat.whatsapp.com/IgQudSqYcKIGCXCV6SBuOb" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
-<a aria-label="Join our chats" href="https://wa.me/923184070915?text=Hi!! SalmanAhmad Sir, I need Your Help" target="_blank">
+<a aria-label="Join our chats" href="https://wa.me/918136880986?text=Hi!! lucky Sir, I need Your Help" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/Bot%20Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
 **Buy Me a Coffee**: Your support will help me stay motivated and continue working on exciting projects like this one.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.buymeacoffee.com/ahmmikun">
-  <img src="https://i.ibb.co/KNnhcvX/bmc-button.png" alt="Buy Me Coffee" height="40" width="150" style="margin-left: 60px;">
+  <img src="https://i.imgur.com/pLi4kQD.png" alt="Buy Me Coffee" height="40" width="150" style="margin-left: 60px;">
 </a>
 
 
