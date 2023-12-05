@@ -1,6 +1,6 @@
 ## `XLICON-MD`
 <div align="left">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=ff0000&center=true&width=900&height=100&lines=Its XLICON-MD;Multi+Device+Whatsapp+Bot;Developed+By+SALMAN AHMAD" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=ff0000&center=true&width=900&height=100&lines=Its XLICON-MD;Multi+Device+Whatsapp+Bot;Developed+By+LUCKYSKBA" alt="Typing SVG" /></a>
   
   
 <p align="center">
@@ -22,7 +22,7 @@
 <a href="https://github.com/salmanytofficial/XLICON-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/salmanytofficial/XLICON-MD?label=Watching&style=social"></a>
 </p>
 
-<p align="center"><img src="https://profile-counter.glitch.me/{salmanytofficial}/count.svg" alt="SALMAN AHMAD :: Visitor's Count" /></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{salmanytofficial}/count.svg" alt="LUCKY SKBA:: Visitor's Count" /></p>
 
 </br>
 
@@ -40,7 +40,7 @@ Dont't Forget To ***SYNC FORK*** The Respository Before ***Deploy***
 
 1. Fork the repo
     <br>
-<a href="https://github.com/salmanytofficial/XLICON-MD/fork"><img title="XLICON-1.0" src="https://img.shields.io/badge/FORK XLICON-1.0-h?color=black&style=for-the-badge&logo=stackshare"></a>
+<a href="https://github.com/LUCKYSERSKBA/XLICON-MD/fork"><img title="XLICON-1.0" src="https://img.shields.io/badge/FORK XLICON-1.0-h?color=black&style=for-the-badge&logo=stackshare"></a>
 
 2. Scan the QR and upload the `Session` to ***XLICON-SECTION*** 
     <br>
@@ -97,8 +97,8 @@ After this fill the vars by your own information and paste this JSON to your Rep
 ```
 {
   "SESSION_ID": "ID-Here",
-  "OWNER_NUMBER": "92xxxxxxxxxx",
-  "OWNER_NAME": "SalmanAhmad",
+  "OWNER_NUMBER": "91xxxxxxxxxx",
+  "OWNER_NAME": "LUCKYSERSKBA",
   "OPENAI_API_KEY": "null",
   "MONGODB_URI": "required",
   "PACK_INFO": "WABOT;Xlicon",
@@ -187,7 +187,7 @@ Choose your repo
 </p>
 
 <p align="center" >
-    <a href="https://heroku.com/deploy?template=https://github.com/salmanytofficial/XLICON-MD">
+    <a href="https://heroku.com/deploy?template=https://github.com/LUCKYSERSKBA/XLICON-MD">
     <img src="https://www.herokucdn.com/deploy/button.png" width="170px" alt="Deploy on Heroku" >
     </a>
 
@@ -330,9 +330,9 @@ Choose your repo
 
 <div align="center">
   
-| [![𝚂𝚊𝚕𝚖𝚊𝚗𝙾𝚏𝚏𝚒𝚌𝚒𝚊𝚕](https://github.com/salmanytofficial.png?lenght=50width=50)](https://github.com/salmanytofficial)|
+| [![𝚂𝚊𝚕𝚖𝚊𝚗𝙾𝚏𝚏𝚒𝚌𝚒𝚊𝚕]([https://i.imgur.com/pLi4kQD.png?lenght=50width=50](https://i.imgur.com/pLi4kQD.jpeg))](https://github.com/salmanytofficial)|
 |----|
-| [ 𝙎𝘼𝙇𝙈𝘼𝙉 𝘼𝙃𝙈𝘼𝘿 ](https://github.com/salmanytofficial) |
+| [𝙇𝙐𝘾𝙆𝙔 𝙎𝙀𝙍 𝙎𝙆𝘽𝘼  ](https://github.com/LUCKYSERSKBA) |
 |  Owner, Developer, Bug Fixer, Maintainer, updates |
 
 <br>
@@ -349,21 +349,21 @@ Choose your repo
 
   ## `Support`
 
-For support, email [ xheikhsalman4422@gmail.com ] or join our whatsapp group.
+For support, email [ fdbluckyser@gmail.com ] or join our whatsapp group.
 
 
 <p align="center">
-  <a aria-label="Join our chats" href="https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk" target="_blank">
+  <a aria-label="Join our chats" href="https://chat.whatsapp.com/IgQudSqYcKIGCXCV6SBuOb" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
-<a aria-label="Join our chats" href="https://wa.me/923184070915?text=Hi!! SalmanAhmad Sir, I need Your Help" target="_blank">
+<a aria-label="Join our chats" href="https://wa.me/918136880986?text=Hi!! lucky Sir, I need Your Help" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/Bot%20Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
 **Buy Me a Coffee**: Your support will help me stay motivated and continue working on exciting projects like this one.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.buymeacoffee.com/ahmmikun">
-  <img src="https://i.ibb.co/KNnhcvX/bmc-button.png" alt="Buy Me Coffee" height="40" width="150" style="margin-left: 60px;">
+  <img src="https://i.imgur.com/pLi4kQD.png" alt="Buy Me Coffee" height="40" width="150" style="margin-left: 60px;">
 </a>
 
 
