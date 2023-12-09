@@ -3,8 +3,8 @@ const Config = require('../config')
 const axios = require('axios')
 var nicetitle = '𝐒𝐀𝐋𝐌𝐀𝐍 𝐀𝐇𝐌𝐀𝐃'
 var nicebody = "|| ◁ㅤ❚❚ㅤ▷||ㅤ ↻"
-var niceurl = 'https://github.com/SamPandey001/Secktor-Md'
-const nicepic = 'https://wallpapercave.com/wp/wp9556281.jpg';
+var niceurl = 'https://github.com/salmanytofficial/XLICON-MD'
+const nicepic = 'https://telegra.ph/file/307a915ef672dbb6617a7.jpg';
 /*
 cmd({
     pattern: "mentionpreview",
