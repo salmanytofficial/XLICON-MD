@@ -48,7 +48,7 @@ Dont't Forget To ***SYNC FORK*** The Respository Before ***Deploy***
 
 3. Scan Qr
     <br>
-<a href='https://replit.com/@ahil15/XLICON-MD-QR-V4?v=1' target="_blank"><img alt='SCAN QR-2' src='https://img.shields.io/badge/Scan_qr-2-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=red'/></a>
+<a href='https://replit.com/@S4SalmanYt/XLICON-MD-QR-V5?v=1' target="_blank"><img alt='SCAN QR-2' src='https://img.shields.io/badge/Scan_qr-2-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=red'/></a>
 
 
 ## `Features`
