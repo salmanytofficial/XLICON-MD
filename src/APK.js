@@ -1,3 +1,6 @@
+credits https://github.com/Sithuwa
+
+
 cmd({
     'pattern': "downapk",
     'alias': ['ps', "apk", 'playstore'],
