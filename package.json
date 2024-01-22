@@ -59,11 +59,6 @@
                        "pastebin-js": "latest",
                        "fb-info-video":"^1.0.2",
                        "wa-sticker-formatter": "^4.3.2"
-                       "hirunews-scraper": "latest",
-                       "sirasa-news": "latest",
-                       "tech-news-scraper": "latest",
-                       "ios-news": "latest",
-                       "nima-threads-dl-api": "latest",
                       },
                          "overrides": {
                          "cache-manager": "5.2.2"
