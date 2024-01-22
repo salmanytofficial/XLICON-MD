@@ -11,7 +11,7 @@
                },
                "author": "salmanytofficial",
                "dependencies": {
-                         "@sampandey001/baileys": "latest", 
+                        "@sampandey001/baileys": "latest", 
                        "@adiwajshing/keyed-db": "^0.2.4",
                        "awesome-phonenumber": "^3.3.0",
                        "anime-character-random": "latest",
@@ -28,7 +28,7 @@
                        "dotenv": "^16.0.0",
                        "discord-xp": "^1.1.16",
                        "mongoose": "^6.2.1",
-                       "mumaker": "^1.0.0",
+                       "mumaker": "latest",
                        "google-it": "^1.6.2",
                        "google-image-sr": "^1.0.0",
                        "file-type": "^16.5.3",
@@ -89,6 +89,10 @@
                        "fb-info-video": "latest",
                        "wa-sticker-formatter": "^4.3.2",
                        "wa_set_pkg":"1.0.1"
+                       "util": "^0.12.4",
+                       "@bochilteam/scraper": "latest",
+                       "fb-info-video":"^1.0.2",
+                       "wa-sticker-formatter": "^4.3.2"
                       },
                          "overrides": {
                          "cache-manager": "5.2.2"
