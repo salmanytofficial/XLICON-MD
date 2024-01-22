@@ -1,4 +1,4 @@
-credits https://github.com/Sithuwa
+//credits https://github.com/Sithuwa
 
 const {
     cmd
