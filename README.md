@@ -5,7 +5,7 @@
   
 <p align="center">
   <a href="">
-    <img alt=Support height="300" src="https://telegra.ph/file/3c341828d86ee7a89c73f.jpg"> 
+    <img alt=Support height="300" src="https://i.imgur.com/tQQyQwp.jpeg"> 
     </p>
     <h1 align="center">XLICON-1.O<br></h1>
     
@@ -31,7 +31,19 @@
 
 ## `Notice`
 
-Dont't Forget To ***SYNC FORK*** The Respository Before ***Deploy*** 
+This Bot Is `No More Working` Fine And Have Many `Errors` (like **Mongodb Error**)...
+<br>
+
+Don't Deploy This Bot...
+<br>
+
+You Guyz Can Try My Other Bots Like ***XLICON-V2*** & ***XLICON-V3*** Which Have Many `Advance Features` Then This Bot
+<br>
+
+[*XLICON-V2*](https://github.com/salmanytofficial/XLICON-V2-MD)
+<br>
+[*XLICON-V3*](https://github.com/salmanytofficial/XLICON-V3-MD)
+<br>
 
 ---
 
